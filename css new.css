@@ -1,0 +1,160 @@
+/* header css code start here! */
+
+.parent-div{
+    display: flex;
+    justify-content: space-around;
+}
+
+.list-div {
+display: flex;
+justify-content:space-around ;
+margin-top: 30px;
+font-size: 25px;
+list-style: none;
+
+
+}
+.list-div li{
+    padding-left: 90px;
+}
+
+/* header css code end here! */
+
+/* first section code starts here! */
+
+
+section{
+    display: flex;
+    justify-content: center;
+   
+   
+   
+  
+}
+section h1{
+    font-size: 70px;
+   
+}
+section h5{
+    font-size: 20px;
+}
+section input{
+    font-size: 20px;
+    background-color: orange;
+    border-radius: 10px;
+    padding: 20px;
+    color: white;
+    margin-left: 300px;
+}
+
+/* first section code ends here! */
+
+
+/* second section code starts here! */
+section img{
+    margin-top: 50px;
+}
+.image{
+    margin-top: 50px;
+}
+.sec-section{
+    margin-top: -7px;
+}
+
+/* second section code ends here! */
+
+
+/* Third section code starts here! */
+
+.images-text-parent{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 200px;
+    
+   
+}
+/* third section code ends here! */
+
+/* fourth section code starts here! */
+
+.four-sec{
+    display: flex;
+    justify-content: center;
+
+}
+.four-sec img{
+    margin-left: 250px;
+}
+.four-sec input{
+    padding: 10px;
+    width: 200px;
+}
+
+/* fourth section code ends here! */
+
+
+/* fifth section code starts here! */
+
+.fifth-section-div{
+    margin: 100px;
+   
+    width: 70%;
+}
+
+  .icons-div{
+    display: grid;
+   grid-template-columns: repeat(4, 1fr);
+   margin-top: 100px;
+  
+}
+ .icons-div .transition:hover{
+    box-shadow: 5px 5px 4px 4px  rgb(40, 11, 11);
+    transition: 2s;
+    
+}
+
+.icons-div p{
+    font-size: 25px;
+}
+
+
+/* fifth section code ends here! */
+
+
+/* sixth section code starts here! */
+
+.images-parent{
+    width: 80%;
+   
+}
+ .sponsers{
+    text-align: center;
+ }
+.sponsers-images{
+    margin: 80px ;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+
+/* sixth section code ends here! */
+
+
+/* footer code starts here! */
+
+.copyright{
+    background-color: wheat ;
+    margin: 100px;
+    text-align: center;
+    width: 90%;
+    padding: 10px;
+    color: black;
+}
+
+
+/* footer code ends here! */
+
+
+
+
